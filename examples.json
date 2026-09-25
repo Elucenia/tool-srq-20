@@ -1,0 +1,80 @@
+[
+  {
+    "label": "Cefaleia, insônia, nervosismo, cansaço e má digestão: 5 (negativo)",
+    "input": {
+      "q1": true,
+      "q3": true,
+      "q6": true,
+      "q7": true,
+      "q18": true
+    },
+    "expected": {
+      "raw": {
+        "score": 5,
+        "item17": 0
+      },
+      "level": "low"
+    },
+    "originalInput": {
+      "q1": true,
+      "q3": true,
+      "q6": true,
+      "q7": true,
+      "q18": true
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Limite: 8 respostas “sim” (positivo)",
+    "input": {
+      "q1": true,
+      "q3": true,
+      "q6": true,
+      "q9": true,
+      "q10": true,
+      "q12": true,
+      "q15": true,
+      "q18": true
+    },
+    "expected": {
+      "raw": {
+        "score": 8
+      },
+      "level": "mid",
+      "verdict": "positivo"
+    },
+    "originalInput": {
+      "q1": true,
+      "q3": true,
+      "q6": true,
+      "q9": true,
+      "q10": true,
+      "q12": true,
+      "q15": true,
+      "q18": true
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Tristeza, falta de interesse e ideia de acabar com a vida: 3, mas alerta de risco",
+    "input": {
+      "q9": true,
+      "q15": true,
+      "q17": true
+    },
+    "expected": {
+      "raw": {
+        "score": 3,
+        "item17": 1
+      },
+      "level": "high",
+      "verdict": "risco de suicídio"
+    },
+    "originalInput": {
+      "q9": true,
+      "q15": true,
+      "q17": true
+    },
+    "expandedZeroOptions": []
+  }
+]

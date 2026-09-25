@@ -1,0 +1,291 @@
+{
+  "tool": {
+    "id": "srq-20",
+    "title": "SRQ-20 (Self-Reporting Questionnaire)",
+    "short": "Rastreamento de transtornos mentais comuns",
+    "spec": [
+      "psiquiatria",
+      "medicina-de-familia-e-comunidade",
+      "medicina-do-trabalho"
+    ],
+    "desc": "SRQ-20 da OMS, validado no Brasil: 20 perguntas de sim ou não para rastrear transtornos mentais comuns (depressão, ansiedade e queixas somáticas).",
+    "lead": "Questionário da OMS com 20 perguntas sobre os últimos 30 dias, validado em São Paulo, para rastrear transtornos mentais comuns na atenção primária e em saúde do trabalhador.",
+    "fields": [
+      [
+        "q1",
+        "Nos últimos 30 dias…<br>1. Você tem dores de cabeça frequentes?",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "q2",
+        "2. Tem falta de apetite?",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "q3",
+        "3. Dorme mal?",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "q4",
+        "4. Assusta-se com facilidade?",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "q5",
+        "5. Tem tremores nas mãos?",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "q6",
+        "6. Sente-se nervoso(a), tenso(a) ou preocupado(a)?",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "q7",
+        "7. Tem má digestão?",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "q8",
+        "8. Tem dificuldades de pensar com clareza?",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "q9",
+        "9. Tem se sentido triste ultimamente?",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "q10",
+        "10. Tem chorado mais do que de costume?",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "q11",
+        "11. Encontra dificuldades para realizar com satisfação suas atividades diárias?",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "q12",
+        "12. Tem dificuldades para tomar decisões?",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "q13",
+        "13. Tem dificuldades no serviço (seu trabalho é penoso, lhe causa sofrimento)?",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "q14",
+        "14. É incapaz de desempenhar um papel útil em sua vida?",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "q15",
+        "15. Tem perdido o interesse pelas coisas?",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "q16",
+        "16. Você se sente uma pessoa inútil, sem préstimo?",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "q17",
+        "17. Tem tido ideia de acabar com a vida?",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "q18",
+        "18. Sente-se cansado(a) o tempo todo?",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "q19",
+        "19. Tem sensações desagradáveis no estômago?",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "q20",
+        "20. Você se cansa com facilidade?",
+        "chk",
+        {
+          "pts": 1
+        }
+      ]
+    ],
+    "formula": "<p>Um ponto para cada “sim” (marque as respostas afirmativas). Total: 0 a 20. Ponto de corte da validação brasileira (Mari e Williams 1986): <strong>≥ 8</strong> = caso suspeito de transtorno mental comum.</p><p>Resposta “sim” no item 17 exige avaliação do risco de suicídio, qualquer que seja o total.</p>",
+    "table": [
+      [
+        "Respostas “sim”",
+        "Interpretação"
+      ],
+      [
+        "0 a 7",
+        "Rastreamento negativo"
+      ],
+      [
+        "8 a 20",
+        "Suspeita de transtorno mental comum: avaliação clínica"
+      ]
+    ],
+    "table_note": "O corte 7/8 é o da validação original em São Paulo; alguns estudos posteriores usam cortes diferentes conforme a população e o sexo.",
+    "tips": [
+      "O SRQ-20 indica sofrimento mental inespecífico (depressão, ansiedade, somatização): não define qual transtorno nem substitui a entrevista clínica.",
+      "Se houver pensamentos de morte ou de se ferir, avalie o risco no mesmo atendimento. Apoio emocional 24 h e gratuito: <strong>CVV 188</strong> (cvv.org.br); risco imediato: SAMU 192 ou pronto-socorro.",
+      "Não detecta psicoses nem uso de álcool: use instrumentos próprios (ex.: AUDIT) quando houver suspeita.",
+      "É útil em saúde do trabalhador para identificar sofrimento relacionado ao trabalho (item 13) e orientar acolhimento e afastamento quando indicado."
+    ],
+    "sources": [
+      [
+        "Mari JJ, Williams P. A validity study of a psychiatric screening questionnaire (SRQ-20) in primary care in the city of Sao Paulo. Br J Psychiatry, 1986.",
+        "https://doi.org/10.1192/bjp.148.1.23"
+      ]
+    ],
+    "cases": [
+      [
+        "Cefaleia, insônia, nervosismo, cansaço e má digestão: 5 (negativo)",
+        {
+          "q1": true,
+          "q3": true,
+          "q6": true,
+          "q7": true,
+          "q18": true
+        },
+        {
+          "raw": {
+            "score": 5,
+            "item17": 0
+          },
+          "level": "low"
+        }
+      ],
+      [
+        "Limite: 8 respostas “sim” (positivo)",
+        {
+          "q1": true,
+          "q3": true,
+          "q6": true,
+          "q9": true,
+          "q10": true,
+          "q12": true,
+          "q15": true,
+          "q18": true
+        },
+        {
+          "raw": {
+            "score": 8
+          },
+          "level": "mid",
+          "verdict": "positivo"
+        }
+      ],
+      [
+        "Tristeza, falta de interesse e ideia de acabar com a vida: 3, mas alerta de risco",
+        {
+          "q9": true,
+          "q15": true,
+          "q17": true
+        },
+        {
+          "raw": {
+            "score": 3,
+            "item17": 1
+          },
+          "level": "high",
+          "verdict": "risco de suicídio"
+        }
+      ]
+    ],
+    "batch": "neuro-mente",
+    "kind": "Calculadora",
+    "config": null,
+    "areaId": "neuro-mente",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/neuro-mente.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 3,
+      "passed": 3,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/neuro-mente.php",
+    "sha256": "3ce3a7987a3ec63938e5f21d8d24ec7f7f8880c1b54458ef7046807a89221cac",
+    "bytes": 102818
+  },
+  "clinicalValidation": "not-performed"
+}
