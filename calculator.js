@@ -1,11 +1,11 @@
-/* tool-srq-20 · Elucenia · https://github.com/Elucenia/tool-srq-20
-   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+/* tool-srq-20 · ELUCENIA · https://github.com/Elucenia/tool-srq-20
+   Copyright (c) 2026 ELUCENIA · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
    Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"srq-20","title":"SRQ-20 (Self-Reporting Questionnaire)","fields":[["q1","Nos últimos 30 dias…<br>1. Você tem dores de cabeça frequentes?","chk",{"pts":1}],["q2","2. Tem falta de apetite?","chk",{"pts":1}],["q3","3. Dorme mal?","chk",{"pts":1}],["q4","4. Assusta-se com facilidade?","chk",{"pts":1}],["q5","5. Tem tremores nas mãos?","chk",{"pts":1}],["q6","6. Sente-se nervoso(a), tenso(a) ou preocupado(a)?","chk",{"pts":1}],["q7","7. Tem má digestão?","chk",{"pts":1}],["q8","8. Tem dificuldades de pensar com clareza?","chk",{"pts":1}],["q9","9. Tem se sentido triste ultimamente?","chk",{"pts":1}],["q10","10. Tem chorado mais do que de costume?","chk",{"pts":1}],["q11","11. Encontra dificuldades para realizar com satisfação suas atividades diárias?","chk",{"pts":1}],["q12","12. Tem dificuldades para tomar decisões?","chk",{"pts":1}],["q13","13. Tem dificuldades no serviço (seu trabalho é penoso, lhe causa sofrimento)?","chk",{"pts":1}],["q14","14. É incapaz de desempenhar um papel útil em sua vida?","chk",{"pts":1}],["q15","15. Tem perdido o interesse pelas coisas?","chk",{"pts":1}],["q16","16. Você se sente uma pessoa inútil, sem préstimo?","chk",{"pts":1}],["q17","17. Tem tido ideia de acabar com a vida?","chk",{"pts":1}],["q18","18. Sente-se cansado(a) o tempo todo?","chk",{"pts":1}],["q19","19. Tem sensações desagradáveis no estômago?","chk",{"pts":1}],["q20","20. Você se cansa com facilidade?","chk",{"pts":1}]],"config":null,"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};
