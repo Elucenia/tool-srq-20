@@ -3,197 +3,137 @@
     "id": "srq-20",
     "title": "SRQ-20 (Self-Reporting Questionnaire)",
     "short": "Rastreamento de transtornos mentais comuns",
+    "desc": "SRQ-20 da OMS, validado no Brasil: 20 perguntas de sim ou não para rastrear transtornos mentais comuns (depressão, ansiedade e queixas somáticas).",
+    "lead": "Questionário da OMS com 20 perguntas sobre os últimos 30 dias, validado em São Paulo, para rastrear transtornos mentais comuns na atenção primária e em saúde do trabalhador.",
+    "kind": "Calculadora",
     "spec": [
       "psiquiatria",
       "medicina-de-familia-e-comunidade",
       "medicina-do-trabalho"
     ],
-    "desc": "SRQ-20 da OMS, validado no Brasil: 20 perguntas de sim ou não para rastrear transtornos mentais comuns (depressão, ansiedade e queixas somáticas).",
-    "lead": "Questionário da OMS com 20 perguntas sobre os últimos 30 dias, validado em São Paulo, para rastrear transtornos mentais comuns na atenção primária e em saúde do trabalhador.",
     "fields": [
       [
         "q1",
         "Nos últimos 30 dias…<br>1. Você tem dores de cabeça frequentes?",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "q2",
         "2. Tem falta de apetite?",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "q3",
         "3. Dorme mal?",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "q4",
         "4. Assusta-se com facilidade?",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "q5",
         "5. Tem tremores nas mãos?",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "q6",
         "6. Sente-se nervoso(a), tenso(a) ou preocupado(a)?",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "q7",
         "7. Tem má digestão?",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "q8",
         "8. Tem dificuldades de pensar com clareza?",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "q9",
         "9. Tem se sentido triste ultimamente?",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "q10",
         "10. Tem chorado mais do que de costume?",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "q11",
         "11. Encontra dificuldades para realizar com satisfação suas atividades diárias?",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "q12",
         "12. Tem dificuldades para tomar decisões?",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "q13",
         "13. Tem dificuldades no serviço (seu trabalho é penoso, lhe causa sofrimento)?",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "q14",
         "14. É incapaz de desempenhar um papel útil em sua vida?",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "q15",
         "15. Tem perdido o interesse pelas coisas?",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "q16",
         "16. Você se sente uma pessoa inútil, sem préstimo?",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "q17",
         "17. Tem tido ideia de acabar com a vida?",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "q18",
         "18. Sente-se cansado(a) o tempo todo?",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "q19",
         "19. Tem sensações desagradáveis no estômago?",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "q20",
         "20. Você se cansa com facilidade?",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ]
     ],
     "formula": "<p>Um ponto para cada “sim” (marque as respostas afirmativas). Total: 0 a 20. Ponto de corte da validação brasileira (Mari e Williams 1986): <strong>≥ 8</strong> = caso suspeito de transtorno mental comum.</p><p>Resposta “sim” no item 17 exige avaliação do risco de suicídio, qualquer que seja o total.</p>",
-    "table": [
-      [
-        "Respostas “sim”",
-        "Interpretação"
-      ],
-      [
-        "0 a 7",
-        "Rastreamento negativo"
-      ],
-      [
-        "8 a 20",
-        "Suspeita de transtorno mental comum: avaliação clínica"
-      ]
-    ],
-    "table_note": "O corte 7/8 é o da validação original em São Paulo; alguns estudos posteriores usam cortes diferentes conforme a população e o sexo.",
-    "tips": [
-      "O SRQ-20 indica sofrimento mental inespecífico (depressão, ansiedade, somatização): não define qual transtorno nem substitui a entrevista clínica.",
-      "Se houver pensamentos de morte ou de se ferir, avalie o risco no mesmo atendimento. Apoio emocional 24 h e gratuito: <strong>CVV 188</strong> (cvv.org.br); risco imediato: SAMU 192 ou pronto-socorro.",
-      "Não detecta psicoses nem uso de álcool: use instrumentos próprios (ex.: AUDIT) quando houver suspeita.",
-      "É útil em saúde do trabalhador para identificar sofrimento relacionado ao trabalho (item 13) e orientar acolhimento e afastamento quando indicado."
-    ],
     "sources": [
       [
         "Mari JJ, Williams P. A validity study of a psychiatric screening questionnaire (SRQ-20) in primary care in the city of Sao Paulo. Br J Psychiatry, 1986.",
@@ -255,9 +195,6 @@
         }
       ]
     ],
-    "kind": "Calculadora",
-    "config": null,
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -266,17 +203,299 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T13:08:00.439Z",
+      "total": 51,
+      "passed": 51,
+      "evidencePath": "reports/review-20261003/eight-additive-source-oracles-final23.json",
+      "evidenceSha256": "52360ca4cccc7b095b0de3b199fffda2e646b7a4dc92f325aa71eec61c4c7dfe",
+      "peerEvidencePath": "reports/review-20261003/eight-additive-source-oracles-independent-review-final23.json",
+      "peerEvidenceSha256": "64ff546626e0559b4f05f5eceb47e9cae355bfe7bc67f82744dbc3db60644f14",
+      "scope": "Entered discrete-point sum/count only. Original/full method conformance, input clinical adjudication, diagnostic/management decisions, prognosis, professional translations, rights and release approval are outside this test. Source-access and variant limits are retained.",
+      "source": {
+        "keys": [
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5",
+          "q6",
+          "q7",
+          "q8",
+          "q9",
+          "q10",
+          "q11",
+          "q12",
+          "q13",
+          "q14",
+          "q15",
+          "q16",
+          "q17",
+          "q18",
+          "q19",
+          "q20"
+        ],
+        "kind": "boolean",
+        "domain": [
+          false,
+          true
+        ],
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10112468/",
+        "edition": "Primary Vietnamese validation study2023, corroborating WHO SRQ-20 yes/no point definition; not an official language approval",
+        "locator": "Introduction:20 questions; yes=1 symptom present/no=0 symptom absent in past month",
+        "access": "Primary article scoring statement read in indexed full-text response2026-10-04; direct retrieval returned a browser check. Original WHO1994 manual not read here. Count twenty entered booleans and preserve entered item17 separately only; language validity, setting-dependent cutoffs, clinical distress and suicide-risk assessment are outside these tests."
+      },
+      "implementations": [
+        {
+          "app": "website",
+          "id": "srq-20",
+          "sha256": "faabf44b47e95920dfb4748db1268408e68cc9c148296a0d8b0622b83ac31206"
+        },
+        {
+          "app": "dashboard",
+          "id": "srq-20",
+          "sha256": "faabf44b47e95920dfb4748db1268408e68cc9c148296a0d8b0622b83ac31206"
+        },
+        {
+          "app": "command-center",
+          "id": "srq-20",
+          "sha256": "faabf44b47e95920dfb4748db1268408e68cc9c148296a0d8b0622b83ac31206"
+        }
+      ],
+      "qualifications": [
+        "The 51 structured input vectors cover every isolated item and every possible total plus mixed vectors, not all 2^20 combinations. Item 17 remains a raw entered Boolean; risk assessment and population cutoffs are outside scope."
+      ],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed",
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "SRQ 20/WHO, PTMari Williams 1986:20 perguntasbinárias,0–20, corte≥8; item 17 alarme",
+    "implementationVersion": "srq-20@native-2026-10-03+faabf44b47e9",
+    "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/3955316/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "Um ponto para cada “sim” (marque as respostas afirmativas). Total: 0 a 20. Ponto de corte da validação brasileira (Mari e Williams 1986): ≥ 8 = caso suspeito de transtorno mental comum. Resposta “sim” no item 17 exige avaliação do risco de suicídio, qualquer que seja o total.",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "q1",
+            "label": "Nos últimos 30 dias…<br>1. Você tem dores de cabeça frequentes?",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "q2",
+            "label": "2. Tem falta de apetite?",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "q3",
+            "label": "3. Dorme mal?",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "q4",
+            "label": "4. Assusta-se com facilidade?",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "q5",
+            "label": "5. Tem tremores nas mãos?",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "q6",
+            "label": "6. Sente-se nervoso(a), tenso(a) ou preocupado(a)?",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "q7",
+            "label": "7. Tem má digestão?",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "q8",
+            "label": "8. Tem dificuldades de pensar com clareza?",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "q9",
+            "label": "9. Tem se sentido triste ultimamente?",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "q10",
+            "label": "10. Tem chorado mais do que de costume?",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "q11",
+            "label": "11. Encontra dificuldades para realizar com satisfação suas atividades diárias?",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "q12",
+            "label": "12. Tem dificuldades para tomar decisões?",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "q13",
+            "label": "13. Tem dificuldades no serviço (seu trabalho é penoso, lhe causa sofrimento)?",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "q14",
+            "label": "14. É incapaz de desempenhar um papel útil em sua vida?",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "q15",
+            "label": "15. Tem perdido o interesse pelas coisas?",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "q16",
+            "label": "16. Você se sente uma pessoa inútil, sem préstimo?",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "q17",
+            "label": "17. Tem tido ideia de acabar com a vida?",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "q18",
+            "label": "18. Sente-se cansado(a) o tempo todo?",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "q19",
+            "label": "19. Tem sensações desagradáveis no estômago?",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "q20",
+            "label": "20. Você se cansa com facilidade?",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          }
+        ],
+        "hash": "278b02c731cc7844af2ebb1ed6c4319e6466bffefc4d751c3004f22893feb30a"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Mari JJ, Williams P. A validity study of a psychiatric screening questionnaire (SRQ-20) in primary care in the city of Sao Paulo. Br J Psychiatry, 1986.",
+          "url": "https://doi.org/10.1192/bjp.148.1.23",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "A validity study of a psychiatric screening questionnaire (SRQ-20) in primary care in the city of Sao Paulo.",
+            "year": "1986",
+            "firstPublicationDate": "1986-01-01",
+            "doi": "10.1192/bjp.148.1.23",
+            "pmid": "3955316",
+            "journal": "The British journal of psychiatry : the journal of mental science",
+            "authors": "Mari JJ, Williams P."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/3955316/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "2b42e6180da90cc9de4d7b5dbf1153ab4cd01b2236c45a2744708e7b2a388719",
+          "matchedBy": "exact-DOI-or-PMID"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T13:08:00.439Z",
+        "total": 51,
+        "passed": 51,
+        "evidencePath": "reports/review-20261003/eight-additive-source-oracles-final23.json",
+        "scope": "Entered discrete-point sum/count only. Original/full method conformance, input clinical adjudication, diagnostic/management decisions, prognosis, professional translations, rights and release approval are outside this test. Source-access and variant limits are retained.",
+        "caseEvidence": {
+          "schema": "independentArithmeticTest.cases",
+          "recordedEvidenceSha256": "4b5bcbcdbc73b3f2c89716375ad8c820a6e2797c8c9681db71ff620f8c14dcdd"
+        }
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "faabf44b47e95920dfb4748db1268408e68cc9c148296a0d8b0622b83ac31206"
+    },
+    "limits": "Rastreamento de transtornos mentais comuns em contexto de atenção primária, seguido de avaliação clínica quando indicado. O estudo brasileiro encontrou diferenças de desempenho por sexo. Uma soma não substitui entrevista diagnóstica; janela de recordação e ponto de corte devem corresponder à versão e população estudadas.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:03.147Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "Corte ≥ 8, janela de 30 dias e protocolo do item 17 não foram conferidos no texto integral."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/srq-20/calculator.js",
+    "bytes": 6287,
+    "sha256": "faabf44b47e95920dfb4748db1268408e68cc9c148296a0d8b0622b83ac31206"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "5108237df959d7c4381baaf5a5a6b4b5457686b6468ab6f1b302d4e689f62e36",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 51,
+      "sha256": "36f29264bb7604b74f24cf7a64fed9723ec41cc8bf28fb43a74a62ff34dda440",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }
