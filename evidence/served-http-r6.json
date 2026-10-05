@@ -1,0 +1,1024 @@
+{
+  "schema": "elucenia-native-tool-actual-r6-local-HTTP-subset-r5",
+  "id": "srq-20",
+  "sourceReceipt": {
+    "file": "reports/review-20261005-completion/deploy-lock/r6-all-calculators-http-results.json",
+    "bytes": 7105396,
+    "sha256": "c0b1e4dc320ce807e78c0444e629c1269b545b6e2ac87c265d896073d8c34ecb"
+  },
+  "servedBuildId": "jN-2wbRrarMjYPwdPnRHh",
+  "checker": {
+    "file": "reports/review-20261005-completion/deploy-lock/verify-r6-all-calculators-http.cjs",
+    "sha256": "92411a9e01fe36e1bf380c3336f2171bdb523a02ff09683da75927b12b33b3fa",
+    "bytes": 20735
+  },
+  "health": {
+    "url": "http://127.0.0.1:3067/api/health",
+    "startedAt": "2026-10-05T17:35:43.039Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json",
+      "retryAfter": null,
+      "cacheControl": "no-store",
+      "nosniff": "nosniff"
+    },
+    "body": {
+      "status": "ok",
+      "application": "ELUCENIA",
+      "framework": "Next.js",
+      "version": "1.0.0"
+    },
+    "responseSha256": "65f95645e7826371eb2d9d3f96e0fed52ea4b88c77203f0cf2511769e57cd108",
+    "bytes": 80,
+    "elapsedMs": 27.345699999999994
+  },
+  "identity": {
+    "url": "http://127.0.0.1:3067/_next/data/jN-2wbRrarMjYPwdPnRHh/en/tools.json",
+    "startedAt": "2026-10-05T17:35:43.068Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "retryAfter": null,
+      "cacheControl": "s-maxage=31536000",
+      "nosniff": "nosniff"
+    },
+    "responseSha256": "404601e2c283a588a2f41af4feb5113d1993f76cc22f73a7b8ef4f5d17a82fa8",
+    "bytes": 103853,
+    "elapsedMs": 14.542600000000007,
+    "semanticMatchWithCompiledCatalog": true
+  },
+  "sourceCalculator": {
+    "file": "deliveries/elucenia-next-hostinger-r6/private/tool-code/srq-20/calculator.js",
+    "sha256": "faabf44b47e95920dfb4748db1268408e68cc9c148296a0d8b0622b83ac31206",
+    "bytes": 6287
+  },
+  "sourceCalculatorMatchesCurrentCandidate": true,
+  "toolStatus": {
+    "cases": 3,
+    "replayed": 3,
+    "passed": 3,
+    "failed": 0,
+    "status": "passed"
+  },
+  "cases": [
+    {
+      "id": "srq-20",
+      "kind": "native-source-reference",
+      "index": 0,
+      "name": "Cefaleia, insônia, nervosismo, cansaço e má digestão: 5 (negativo)",
+      "originalInput": {
+        "q1": true,
+        "q3": true,
+        "q6": true,
+        "q7": true,
+        "q18": true
+      },
+      "input": {
+        "q1": true,
+        "q3": true,
+        "q6": true,
+        "q7": true,
+        "q18": true,
+        "q2": false,
+        "q4": false,
+        "q5": false,
+        "q8": false,
+        "q9": false,
+        "q10": false,
+        "q11": false,
+        "q12": false,
+        "q13": false,
+        "q14": false,
+        "q15": false,
+        "q16": false,
+        "q17": false,
+        "q19": false,
+        "q20": false
+      },
+      "amendments": [
+        {
+          "field": "q2",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q4",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q5",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q8",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q9",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q10",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q11",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q12",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q13",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q14",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q15",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q16",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q17",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q19",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q20",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        }
+      ],
+      "expected": {
+        "raw": {
+          "score": 5,
+          "item17": 0
+        },
+        "level": "low"
+      },
+      "recordedResult": {
+        "main": [
+          "5",
+          "de 20"
+        ],
+        "label": "SRQ-20",
+        "raw": {
+          "score": 5,
+          "item17": 0
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/srq-20/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "q1": true,
+            "q3": true,
+            "q6": true,
+            "q7": true,
+            "q18": true,
+            "q2": false,
+            "q4": false,
+            "q5": false,
+            "q8": false,
+            "q9": false,
+            "q10": false,
+            "q11": false,
+            "q12": false,
+            "q13": false,
+            "q14": false,
+            "q15": false,
+            "q16": false,
+            "q17": false,
+            "q19": false,
+            "q20": false
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/srq-20/calculate",
+          "startedAt": "2026-10-05T17:39:46.769Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "srq-20",
+              "main": [
+                "5",
+                "de 20"
+              ],
+              "label": "SRQ-20",
+              "raw": {
+                "score": 5,
+                "item17": 0
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "1f99c9f85bd5dc141f07566d21ec9ad26329c8f836cbf16575b5251a58241210",
+          "bytes": 130,
+          "elapsedMs": 3.3612000000139233
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/srq-20/calculate",
+        "startedAt": "2026-10-05T17:39:46.769Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "srq-20",
+            "main": [
+              "5",
+              "de 20"
+            ],
+            "label": "SRQ-20",
+            "raw": {
+              "score": 5,
+              "item17": 0
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "1f99c9f85bd5dc141f07566d21ec9ad26329c8f836cbf16575b5251a58241210",
+        "bytes": 130,
+        "elapsedMs": 3.3612000000139233
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 5,
+            "obtained": 5,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.item17",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 5,
+            "obtained": 5,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.item17",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "5",
+            "obtained": "5",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 20",
+            "obtained": "de 20",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "srq-20",
+      "kind": "native-source-reference",
+      "index": 1,
+      "name": "Limite: 8 respostas “sim” (positivo)",
+      "originalInput": {
+        "q1": true,
+        "q3": true,
+        "q6": true,
+        "q9": true,
+        "q10": true,
+        "q12": true,
+        "q15": true,
+        "q18": true
+      },
+      "input": {
+        "q1": true,
+        "q3": true,
+        "q6": true,
+        "q9": true,
+        "q10": true,
+        "q12": true,
+        "q15": true,
+        "q18": true,
+        "q2": false,
+        "q4": false,
+        "q5": false,
+        "q7": false,
+        "q8": false,
+        "q11": false,
+        "q13": false,
+        "q14": false,
+        "q16": false,
+        "q17": false,
+        "q19": false,
+        "q20": false
+      },
+      "amendments": [
+        {
+          "field": "q2",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q4",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q5",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q7",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q8",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q11",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q13",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q14",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q16",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q17",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q19",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q20",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        }
+      ],
+      "expected": {
+        "raw": {
+          "score": 8
+        },
+        "level": "mid",
+        "verdict": "positivo"
+      },
+      "recordedResult": {
+        "main": [
+          "8",
+          "de 20"
+        ],
+        "label": "SRQ-20",
+        "raw": {
+          "score": 8,
+          "item17": 0
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/srq-20/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "q1": true,
+            "q3": true,
+            "q6": true,
+            "q9": true,
+            "q10": true,
+            "q12": true,
+            "q15": true,
+            "q18": true,
+            "q2": false,
+            "q4": false,
+            "q5": false,
+            "q7": false,
+            "q8": false,
+            "q11": false,
+            "q13": false,
+            "q14": false,
+            "q16": false,
+            "q17": false,
+            "q19": false,
+            "q20": false
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/srq-20/calculate",
+          "startedAt": "2026-10-05T17:39:47.082Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "srq-20",
+              "main": [
+                "8",
+                "de 20"
+              ],
+              "label": "SRQ-20",
+              "raw": {
+                "score": 8,
+                "item17": 0
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "ae92581b5de48ed663f160d2ec9c8a077f809ef5f6937c99a8a881af05009613",
+          "bytes": 130,
+          "elapsedMs": 2.4759999999951106
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/srq-20/calculate",
+        "startedAt": "2026-10-05T17:39:47.082Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "srq-20",
+            "main": [
+              "8",
+              "de 20"
+            ],
+            "label": "SRQ-20",
+            "raw": {
+              "score": 8,
+              "item17": 0
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "ae92581b5de48ed663f160d2ec9c8a077f809ef5f6937c99a8a881af05009613",
+        "bytes": 130,
+        "elapsedMs": 2.4759999999951106
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 8,
+            "obtained": 8,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 8,
+            "obtained": 8,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.item17",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "8",
+            "obtained": "8",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 20",
+            "obtained": "de 20",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "srq-20",
+      "kind": "native-source-reference",
+      "index": 2,
+      "name": "Tristeza, falta de interesse e ideia de acabar com a vida: 3, mas alerta de risco",
+      "originalInput": {
+        "q9": true,
+        "q15": true,
+        "q17": true
+      },
+      "input": {
+        "q9": true,
+        "q15": true,
+        "q17": true,
+        "q1": false,
+        "q2": false,
+        "q3": false,
+        "q4": false,
+        "q5": false,
+        "q6": false,
+        "q7": false,
+        "q8": false,
+        "q10": false,
+        "q11": false,
+        "q12": false,
+        "q13": false,
+        "q14": false,
+        "q16": false,
+        "q18": false,
+        "q19": false,
+        "q20": false
+      },
+      "amendments": [
+        {
+          "field": "q1",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q2",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q3",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q4",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q5",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q6",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q7",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q8",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q10",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q11",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q12",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q13",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q14",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q16",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q18",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q19",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "q20",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        }
+      ],
+      "expected": {
+        "raw": {
+          "score": 3,
+          "item17": 1
+        },
+        "level": "high",
+        "verdict": "risco de suicídio"
+      },
+      "recordedResult": {
+        "main": [
+          "3",
+          "de 20"
+        ],
+        "label": "SRQ-20",
+        "raw": {
+          "score": 3,
+          "item17": 1
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/srq-20/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "q9": true,
+            "q15": true,
+            "q17": true,
+            "q1": false,
+            "q2": false,
+            "q3": false,
+            "q4": false,
+            "q5": false,
+            "q6": false,
+            "q7": false,
+            "q8": false,
+            "q10": false,
+            "q11": false,
+            "q12": false,
+            "q13": false,
+            "q14": false,
+            "q16": false,
+            "q18": false,
+            "q19": false,
+            "q20": false
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/srq-20/calculate",
+          "startedAt": "2026-10-05T17:39:47.395Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "srq-20",
+              "main": [
+                "3",
+                "de 20"
+              ],
+              "label": "SRQ-20",
+              "raw": {
+                "score": 3,
+                "item17": 1
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "1092c8fbeb43dde238597afbe2d274dccd802dcd302a47bf9f99d9b68f4e132c",
+          "bytes": 130,
+          "elapsedMs": 3.7005999999819323
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/srq-20/calculate",
+        "startedAt": "2026-10-05T17:39:47.395Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "srq-20",
+            "main": [
+              "3",
+              "de 20"
+            ],
+            "label": "SRQ-20",
+            "raw": {
+              "score": 3,
+              "item17": 1
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "1092c8fbeb43dde238597afbe2d274dccd802dcd302a47bf9f99d9b68f4e132c",
+        "bytes": 130,
+        "elapsedMs": 3.7005999999819323
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 3,
+            "obtained": 3,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.item17",
+            "expected": 1,
+            "obtained": 1,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 3,
+            "obtained": 3,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.item17",
+            "expected": 1,
+            "obtained": 1,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "3",
+            "obtained": "3",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 20",
+            "obtained": "de 20",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    }
+  ],
+  "scope": {
+    "syntheticDataOnly": true,
+    "applicationModuleImports": 0,
+    "browserInteractions": 0,
+    "newIndependentOracles": 0,
+    "nativeSourceReferenceCases": 882,
+    "additionalDecimalCases": 4,
+    "predictProstateHasSeparateFullCurveOracleReplay": true,
+    "clinicalApproval": false,
+    "professionalLanguageApproval": false,
+    "populationValidation": false,
+    "hostingerDeploymentVerified": false,
+    "actualHTTPExecution": true,
+    "standaloneNodeServer": true,
+    "nodeVersion": "v22.18.0",
+    "noNewClinicalOrProfessionalApproval": true,
+    "pubmedResourceIsNotCalculatorAndNotIncludedIn222": true,
+    "description": "All 882 existing reference cases across the 218 native calculators plus four existing Decimal50 examples, executed via HTTP against the final local r6 standalone build. Raw precise source-audit comparisons are transport regressions, not independent clinical or full-method validation."
+  },
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false,
+  "newIndependentOracle": false,
+  "actualBrowserJourney": false,
+  "hostingerDeploymentVerified": false
+}
