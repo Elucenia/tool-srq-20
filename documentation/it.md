@@ -133,3 +133,28 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Screening negativo
+
+Strumento di screening: non fa diagnosi né indica quale disturbo. I casi positivi richiedono valutazione clinica.
+
+
+### 2
+
+Screening positivo: sospetto di disturbo mentale comune
+
+Strumento di screening: non fa diagnosi né indica quale disturbo. I casi positivi richiedono valutazione clinica.
+
+
+### 3
+
+Screening negativo. Idee di porre fine alla propria vita: valutare ora il rischio di suicidio
+
+Pensieri di morte o di farsi del male: chieda direttamente di ideazione, piano e mezzi, e non lasci la persona sola se il rischio è imminente. Supporto emotivo gratuito 24 h: CVV 188 (o cvv.org.br). Rischio immediato: SAMU 192 o pronto soccorso.
+

@@ -133,3 +133,28 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+Rastreamento negativo
+
+Instrumento de rastreamento: não faz diagnóstico nem indica qual transtorno. Casos positivos pedem avaliação clínica.
+
+
+### 2
+
+Rastreamento positivo: suspeita de transtorno mental comum
+
+Instrumento de rastreamento: não faz diagnóstico nem indica qual transtorno. Casos positivos pedem avaliação clínica.
+
+
+### 3
+
+Rastreamento negativo. Ideia de acabar com a vida: avaliar risco de suicídio agora
+
+Pensamentos de morte ou de se ferir: pergunte diretamente sobre ideação, plano e meios, e não deixe a pessoa sozinha se o risco for iminente. Apoio emocional 24 h e gratuito: CVV 188 (ou cvv.org.br). Risco imediato: SAMU 192 ou pronto-socorro.
+

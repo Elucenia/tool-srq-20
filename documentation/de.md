@@ -133,3 +133,28 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Negatives Screening
+
+Screening-Instrument: stellt keine Diagnose und gibt nicht an, um welche Störung es sich handelt. Positive Fälle erfordern eine klinische Abklärung.
+
+
+### 2
+
+Positives Screening: Verdacht auf häufige psychische Störung
+
+Screening-Instrument: stellt keine Diagnose und gibt nicht an, um welche Störung es sich handelt. Positive Fälle erfordern eine klinische Abklärung.
+
+
+### 3
+
+Negatives Screening. Gedanken daran, das Leben zu beenden: Suizidrisiko jetzt einschätzen
+
+Gedanken an den Tod oder an Selbstverletzung: fragen Sie direkt nach Suizidgedanken, Plan und Mitteln und lassen Sie die Person bei unmittelbarer Gefahr nicht allein. Kostenlose emotionale Unterstützung rund um die Uhr: CVV 188 (oder cvv.org.br). Unmittelbare Gefahr: SAMU 192 oder Notaufnahme.
+

@@ -1,0 +1,236 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "srq-20",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "a1ddff3289e868cd09e200b598abc5d832000a18",
+    "oldEngineSha256": "faabf44b47e95920dfb4748db1268408e68cc9c148296a0d8b0622b83ac31206",
+    "currentEngineSha256": "3f2717e868fb46c3d9502cee0e8eb498e430c10e6d39ee114ed7e5ec33152f62"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "Cefaleia, insônia, nervosismo, cansaço e má digestão: 5 (negativo)",
+      "input": {
+        "q1": true,
+        "q3": true,
+        "q6": true,
+        "q7": true,
+        "q18": true,
+        "q2": false,
+        "q4": false,
+        "q5": false,
+        "q8": false,
+        "q9": false,
+        "q10": false,
+        "q11": false,
+        "q12": false,
+        "q13": false,
+        "q14": false,
+        "q15": false,
+        "q16": false,
+        "q17": false,
+        "q19": false,
+        "q20": false
+      },
+      "publicOutput": {
+        "id": "srq-20",
+        "main": [
+          "5",
+          "de 20"
+        ],
+        "label": "SRQ-20",
+        "raw": {
+          "score": 5,
+          "item17": 0
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "score": 5,
+          "item17": 0
+        },
+        "level": "low"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "5",
+          "de 20"
+        ],
+        "label": "SRQ-20",
+        "level": "low",
+        "verdict": "Rastreamento negativo",
+        "note": "Instrumento de rastreamento: não faz diagnóstico nem indica qual transtorno. Casos positivos pedem avaliação clínica.",
+        "raw": {
+          "score": 5,
+          "item17": 0
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "Limite: 8 respostas “sim” (positivo)",
+      "input": {
+        "q1": true,
+        "q3": true,
+        "q6": true,
+        "q9": true,
+        "q10": true,
+        "q12": true,
+        "q15": true,
+        "q18": true,
+        "q2": false,
+        "q4": false,
+        "q5": false,
+        "q7": false,
+        "q8": false,
+        "q11": false,
+        "q13": false,
+        "q14": false,
+        "q16": false,
+        "q17": false,
+        "q19": false,
+        "q20": false
+      },
+      "publicOutput": {
+        "id": "srq-20",
+        "main": [
+          "8",
+          "de 20"
+        ],
+        "label": "SRQ-20",
+        "raw": {
+          "score": 8,
+          "item17": 0
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "score": 8
+        },
+        "level": "mid",
+        "verdict": "positivo"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "8",
+          "de 20"
+        ],
+        "label": "SRQ-20",
+        "level": "mid",
+        "verdict": "Rastreamento positivo: suspeita de transtorno mental comum",
+        "note": "Instrumento de rastreamento: não faz diagnóstico nem indica qual transtorno. Casos positivos pedem avaliação clínica.",
+        "raw": {
+          "score": 8,
+          "item17": 0
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "Tristeza, falta de interesse e ideia de acabar com a vida: 3, mas alerta de risco",
+      "input": {
+        "q9": true,
+        "q15": true,
+        "q17": true,
+        "q1": false,
+        "q2": false,
+        "q3": false,
+        "q4": false,
+        "q5": false,
+        "q6": false,
+        "q7": false,
+        "q8": false,
+        "q10": false,
+        "q11": false,
+        "q12": false,
+        "q13": false,
+        "q14": false,
+        "q16": false,
+        "q18": false,
+        "q19": false,
+        "q20": false
+      },
+      "publicOutput": {
+        "id": "srq-20",
+        "main": [
+          "3",
+          "de 20"
+        ],
+        "label": "SRQ-20",
+        "raw": {
+          "score": 3,
+          "item17": 1
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "score": 3,
+          "item17": 1
+        },
+        "level": "high",
+        "verdict": "risco de suicídio"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "3",
+          "de 20"
+        ],
+        "label": "SRQ-20",
+        "level": "high",
+        "verdict": "Rastreamento negativo. Ideia de acabar com a vida: avaliar risco de suicídio agora",
+        "note": "Pensamentos de morte ou de se ferir: pergunte diretamente sobre ideação, plano e meios, e não deixe a pessoa sozinha se o risco for iminente. Apoio emocional 24 h e gratuito: <strong>CVV 188</strong> (ou cvv.org.br). Risco imediato: SAMU 192 ou pronto-socorro.",
+        "raw": {
+          "score": 3,
+          "item17": 1
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    }
+  ]
+}

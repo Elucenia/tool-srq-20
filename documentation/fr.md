@@ -133,3 +133,28 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Dépistage négatif
+
+Instrument de dépistage : ne pose pas de diagnostic et n’indique pas quel trouble. Les cas positifs nécessitent une évaluation clinique.
+
+
+### 2
+
+Dépistage positif : suspicion de trouble mental courant
+
+Instrument de dépistage : ne pose pas de diagnostic et n’indique pas quel trouble. Les cas positifs nécessitent une évaluation clinique.
+
+
+### 3
+
+Dépistage négatif. Idées de mettre fin à ses jours : évaluer maintenant le risque suicidaire
+
+Pensées de mort ou d’automutilation : interrogez directement sur les idées, le plan et les moyens, et ne laissez pas la personne seule si le risque est imminent. Soutien émotionnel gratuit 24 h/24 : CVV 188 (ou cvv.org.br). Risque immédiat : SAMU 192 ou service d’urgences.
+

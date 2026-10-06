@@ -1,0 +1,537 @@
+{
+  "id": "srq-20",
+  "implementationVersion": "srq-20@native-2026-10-05+3f2717e868fb",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Cefaleia, insônia, nervosismo, cansaço e má digestão: 5 (negativo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Rastreamento negativo",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Instrumento de rastreamento: não faz diagnóstico nem indica qual transtorno. Casos positivos pedem avaliação clínica.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 8 respostas “sim” (positivo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Rastreamento positivo: suspeita de transtorno mental comum",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Instrumento de rastreamento: não faz diagnóstico nem indica qual transtorno. Casos positivos pedem avaliação clínica.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Tristeza, falta de interesse e ideia de acabar com a vida: 3, mas alerta de risco",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Rastreamento negativo. Ideia de acabar com a vida: avaliar risco de suicídio agora",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Pensamentos de morte ou de se ferir: pergunte diretamente sobre ideação, plano e meios, e não deixe a pessoa sozinha se o risco for iminente. Apoio emocional 24 h e gratuito: CVV 188 (ou cvv.org.br). Risco imediato: SAMU 192 ou pronto-socorro.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Cefaleia, insônia, nervosismo, cansaço e má digestão: 5 (negativo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Negative screening",
+            "locale": "en",
+            "template": "documented-authored-a4616c326c4598287bd6"
+          },
+          "note": {
+            "text": "Screening instrument: does not make a diagnosis or indicate which disorder. Positive cases require clinical evaluation.",
+            "locale": "en",
+            "template": "documented-authored-345d1f23219886a7b35e"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 8 respostas “sim” (positivo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Positive screening: suspicion of common mental disorder",
+            "locale": "en",
+            "template": "documented-authored-e3f3bfad147a27d836d9"
+          },
+          "note": {
+            "text": "Screening instrument: does not make a diagnosis or indicate which disorder. Positive cases require clinical evaluation.",
+            "locale": "en",
+            "template": "documented-authored-345d1f23219886a7b35e"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Tristeza, falta de interesse e ideia de acabar com a vida: 3, mas alerta de risco",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Negative screening. Thoughts of ending one’s life: assess suicide risk now",
+            "locale": "en",
+            "template": "documented-authored-61f81c7b9731ee089954"
+          },
+          "note": {
+            "text": "Thoughts of death or self-harm: ask directly about ideation, plan, and means, and do not leave the person alone if the risk is imminent. 24 h free emotional support: CVV 188 (or cvv.org.br). Immediate risk: SAMU 192 or emergency department.",
+            "locale": "en",
+            "template": "documented-authored-b07df003a2848b2024d1"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Cefaleia, insônia, nervosismo, cansaço e má digestão: 5 (negativo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Cribado negativo",
+            "locale": "es",
+            "template": "documented-authored-a4616c326c4598287bd6"
+          },
+          "note": {
+            "text": "Instrumento de cribado: no diagnostica ni indica qué trastorno. Los casos positivos requieren evaluación clínica.",
+            "locale": "es",
+            "template": "documented-authored-345d1f23219886a7b35e"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 8 respostas “sim” (positivo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Cribado positivo: sospecha de trastorno mental común",
+            "locale": "es",
+            "template": "documented-authored-e3f3bfad147a27d836d9"
+          },
+          "note": {
+            "text": "Instrumento de cribado: no diagnostica ni indica qué trastorno. Los casos positivos requieren evaluación clínica.",
+            "locale": "es",
+            "template": "documented-authored-345d1f23219886a7b35e"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Tristeza, falta de interesse e ideia de acabar com a vida: 3, mas alerta de risco",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Cribado negativo. Ideas de acabar con la vida: evaluar ahora el riesgo de suicidio",
+            "locale": "es",
+            "template": "documented-authored-61f81c7b9731ee089954"
+          },
+          "note": {
+            "text": "Pensamientos de muerte o de hacerse daño: pregunte directamente sobre ideación, plan y medios, y no deje a la persona sola si el riesgo es inminente. Apoyo emocional gratuito 24 h: CVV 188 (o cvv.org.br). Riesgo inmediato: SAMU 192 o urgencias.",
+            "locale": "es",
+            "template": "documented-authored-b07df003a2848b2024d1"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Cefaleia, insônia, nervosismo, cansaço e má digestão: 5 (negativo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dépistage négatif",
+            "locale": "fr",
+            "template": "documented-authored-a4616c326c4598287bd6"
+          },
+          "note": {
+            "text": "Instrument de dépistage : ne pose pas de diagnostic et n’indique pas quel trouble. Les cas positifs nécessitent une évaluation clinique.",
+            "locale": "fr",
+            "template": "documented-authored-345d1f23219886a7b35e"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 8 respostas “sim” (positivo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dépistage positif : suspicion de trouble mental courant",
+            "locale": "fr",
+            "template": "documented-authored-e3f3bfad147a27d836d9"
+          },
+          "note": {
+            "text": "Instrument de dépistage : ne pose pas de diagnostic et n’indique pas quel trouble. Les cas positifs nécessitent une évaluation clinique.",
+            "locale": "fr",
+            "template": "documented-authored-345d1f23219886a7b35e"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Tristeza, falta de interesse e ideia de acabar com a vida: 3, mas alerta de risco",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dépistage négatif. Idées de mettre fin à ses jours : évaluer maintenant le risque suicidaire",
+            "locale": "fr",
+            "template": "documented-authored-61f81c7b9731ee089954"
+          },
+          "note": {
+            "text": "Pensées de mort ou d’automutilation : interrogez directement sur les idées, le plan et les moyens, et ne laissez pas la personne seule si le risque est imminent. Soutien émotionnel gratuit 24 h/24 : CVV 188 (ou cvv.org.br). Risque immédiat : SAMU 192 ou service d’urgences.",
+            "locale": "fr",
+            "template": "documented-authored-b07df003a2848b2024d1"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Cefaleia, insônia, nervosismo, cansaço e má digestão: 5 (negativo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Negatives Screening",
+            "locale": "de",
+            "template": "documented-authored-a4616c326c4598287bd6"
+          },
+          "note": {
+            "text": "Screening-Instrument: stellt keine Diagnose und gibt nicht an, um welche Störung es sich handelt. Positive Fälle erfordern eine klinische Abklärung.",
+            "locale": "de",
+            "template": "documented-authored-345d1f23219886a7b35e"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 8 respostas “sim” (positivo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Positives Screening: Verdacht auf häufige psychische Störung",
+            "locale": "de",
+            "template": "documented-authored-e3f3bfad147a27d836d9"
+          },
+          "note": {
+            "text": "Screening-Instrument: stellt keine Diagnose und gibt nicht an, um welche Störung es sich handelt. Positive Fälle erfordern eine klinische Abklärung.",
+            "locale": "de",
+            "template": "documented-authored-345d1f23219886a7b35e"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Tristeza, falta de interesse e ideia de acabar com a vida: 3, mas alerta de risco",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Negatives Screening. Gedanken daran, das Leben zu beenden: Suizidrisiko jetzt einschätzen",
+            "locale": "de",
+            "template": "documented-authored-61f81c7b9731ee089954"
+          },
+          "note": {
+            "text": "Gedanken an den Tod oder an Selbstverletzung: fragen Sie direkt nach Suizidgedanken, Plan und Mitteln und lassen Sie die Person bei unmittelbarer Gefahr nicht allein. Kostenlose emotionale Unterstützung rund um die Uhr: CVV 188 (oder cvv.org.br). Unmittelbare Gefahr: SAMU 192 oder Notaufnahme.",
+            "locale": "de",
+            "template": "documented-authored-b07df003a2848b2024d1"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Cefaleia, insônia, nervosismo, cansaço e má digestão: 5 (negativo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Screening negativo",
+            "locale": "it",
+            "template": "documented-authored-a4616c326c4598287bd6"
+          },
+          "note": {
+            "text": "Strumento di screening: non fa diagnosi né indica quale disturbo. I casi positivi richiedono valutazione clinica.",
+            "locale": "it",
+            "template": "documented-authored-345d1f23219886a7b35e"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 8 respostas “sim” (positivo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Screening positivo: sospetto di disturbo mentale comune",
+            "locale": "it",
+            "template": "documented-authored-e3f3bfad147a27d836d9"
+          },
+          "note": {
+            "text": "Strumento di screening: non fa diagnosi né indica quale disturbo. I casi positivi richiedono valutazione clinica.",
+            "locale": "it",
+            "template": "documented-authored-345d1f23219886a7b35e"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Tristeza, falta de interesse e ideia de acabar com a vida: 3, mas alerta de risco",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Screening negativo. Idee di porre fine alla propria vita: valutare ora il rischio di suicidio",
+            "locale": "it",
+            "template": "documented-authored-61f81c7b9731ee089954"
+          },
+          "note": {
+            "text": "Pensieri di morte o di farsi del male: chieda direttamente di ideazione, piano e mezzi, e non lasci la persona sola se il rischio è imminente. Supporto emotivo gratuito 24 h: CVV 188 (o cvv.org.br). Rischio immediato: SAMU 192 o pronto soccorso.",
+            "locale": "it",
+            "template": "documented-authored-b07df003a2848b2024d1"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Cefaleia, insônia, nervosismo, cansaço e má digestão: 5 (negativo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "تحرّي سلبي",
+            "locale": "ar",
+            "template": "documented-authored-a4616c326c4598287bd6"
+          },
+          "note": {
+            "text": "أداة تحرّي: لا تُشخّص ولا تحدد الاضطراب. الحالات الإيجابية تتطلب تقييمًا سريريًا.",
+            "locale": "ar",
+            "template": "documented-authored-345d1f23219886a7b35e"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 8 respostas “sim” (positivo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "تحرّي إيجابي: اشتباه في اضطراب نفسي شائع",
+            "locale": "ar",
+            "template": "documented-authored-e3f3bfad147a27d836d9"
+          },
+          "note": {
+            "text": "أداة تحرّي: لا تُشخّص ولا تحدد الاضطراب. الحالات الإيجابية تتطلب تقييمًا سريريًا.",
+            "locale": "ar",
+            "template": "documented-authored-345d1f23219886a7b35e"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Tristeza, falta de interesse e ideia de acabar com a vida: 3, mas alerta de risco",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "تحرّي سلبي. أفكار لإنهاء الحياة: قيّم خطر الانتحار الآن",
+            "locale": "ar",
+            "template": "documented-authored-61f81c7b9731ee089954"
+          },
+          "note": {
+            "text": "أفكار عن الموت أو إيذاء النفس: اسأل مباشرة عن الأفكار والخطة والوسائل، ولا تترك الشخص وحيدًا إذا كانت الخطورة وشيكة. دعم عاطفي مجاني على مدار 24 ساعة: CVV 188 (أو cvv.org.br). خطر فوري: SAMU 192 أو قسم الطوارئ.",
+            "locale": "ar",
+            "template": "documented-authored-b07df003a2848b2024d1"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Cefaleia, insônia, nervosismo, cansaço e má digestão: 5 (negativo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "筛查阴性",
+            "locale": "zh",
+            "template": "documented-authored-a4616c326c4598287bd6"
+          },
+          "note": {
+            "text": "筛查工具：不能作出诊断，也不能指出是哪种障碍。阳性病例需要临床评估。",
+            "locale": "zh",
+            "template": "documented-authored-345d1f23219886a7b35e"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 8 respostas “sim” (positivo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "筛查阳性：疑似常见精神障碍",
+            "locale": "zh",
+            "template": "documented-authored-e3f3bfad147a27d836d9"
+          },
+          "note": {
+            "text": "筛查工具：不能作出诊断，也不能指出是哪种障碍。阳性病例需要临床评估。",
+            "locale": "zh",
+            "template": "documented-authored-345d1f23219886a7b35e"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Tristeza, falta de interesse e ideia de acabar com a vida: 3, mas alerta de risco",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "筛查阴性。想结束生命的念头：现在评估自杀风险",
+            "locale": "zh",
+            "template": "documented-authored-61f81c7b9731ee089954"
+          },
+          "note": {
+            "text": "有死亡或自伤想法：应直接询问意念、计划和手段；如风险迫近，不要让其独处。24小时免费情绪支持：CVV 188（或 cvv.org.br）。立即风险：SAMU 192 或急诊科。",
+            "locale": "zh",
+            "template": "documented-authored-b07df003a2848b2024d1"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Cefaleia, insônia, nervosismo, cansaço e má digestão: 5 (negativo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "スクリーニング陰性",
+            "locale": "ja",
+            "template": "documented-authored-a4616c326c4598287bd6"
+          },
+          "note": {
+            "text": "スクリーニング用具：診断は行わず、どの障害かも示さない。陽性例には臨床評価が必要。",
+            "locale": "ja",
+            "template": "documented-authored-345d1f23219886a7b35e"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 8 respostas “sim” (positivo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "スクリーニング陽性：一般的な精神障害が疑われる",
+            "locale": "ja",
+            "template": "documented-authored-e3f3bfad147a27d836d9"
+          },
+          "note": {
+            "text": "スクリーニング用具：診断は行わず、どの障害かも示さない。陽性例には臨床評価が必要。",
+            "locale": "ja",
+            "template": "documented-authored-345d1f23219886a7b35e"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Tristeza, falta de interesse e ideia de acabar com a vida: 3, mas alerta de risco",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "スクリーニング陰性。自ら命を絶つ考え：今すぐ自殺リスクを評価する",
+            "locale": "ja",
+            "template": "documented-authored-61f81c7b9731ee089954"
+          },
+          "note": {
+            "text": "死や自傷の考え：希死念慮、計画、手段について直接尋ね、切迫した危険がある場合はその人を一人にしない。24時間無料の心の支援：CVV 188（または cvv.org.br）。切迫した危険：SAMU 192 または救急外来。",
+            "locale": "ja",
+            "template": "documented-authored-b07df003a2848b2024d1"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Cefaleia, insônia, nervosismo, cansaço e má digestão: 5 (negativo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "स्क्रीनिंग नकारात्मक",
+            "locale": "hi",
+            "template": "documented-authored-a4616c326c4598287bd6"
+          },
+          "note": {
+            "text": "स्क्रीनिंग उपकरण: यह निदान नहीं करता और न ही यह बताता है कि कौन-सा विकार है। सकारात्मक मामलों में नैदानिक मूल्यांकन आवश्यक है।",
+            "locale": "hi",
+            "template": "documented-authored-345d1f23219886a7b35e"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Limite: 8 respostas “sim” (positivo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "सकारात्मक स्क्रीनिंग: सामान्य मानसिक विकार का संदेह",
+            "locale": "hi",
+            "template": "documented-authored-e3f3bfad147a27d836d9"
+          },
+          "note": {
+            "text": "स्क्रीनिंग उपकरण: यह निदान नहीं करता और न ही यह बताता है कि कौन-सा विकार है। सकारात्मक मामलों में नैदानिक मूल्यांकन आवश्यक है।",
+            "locale": "hi",
+            "template": "documented-authored-345d1f23219886a7b35e"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Tristeza, falta de interesse e ideia de acabar com a vida: 3, mas alerta de risco",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "स्क्रीनिंग नकारात्मक। जीवन समाप्त करने के विचार: अब आत्महत्या के जोखिम का आकलन करें",
+            "locale": "hi",
+            "template": "documented-authored-61f81c7b9731ee089954"
+          },
+          "note": {
+            "text": "मृत्यु या स्वयं को नुकसान पहुँचाने के विचार: विचार, योजना और साधनों के बारे में सीधे पूछें, और यदि जोखिम तुरंत है तो व्यक्ति को अकेला न छोड़ें। 24 घंटे निःशुल्क भावनात्मक सहायता: CVV 188 (या cvv.org.br). तात्कालिक जोखिम: SAMU 192 या आपातकालीन कक्ष।",
+            "locale": "hi",
+            "template": "documented-authored-b07df003a2848b2024d1"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}

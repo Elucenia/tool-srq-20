@@ -272,7 +272,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "SRQ 20/WHO, PTMari Williams 1986:20 perguntasbinárias,0–20, corte≥8; item 17 alarme",
-    "implementationVersion": "srq-20@native-2026-10-03+faabf44b47e9",
+    "implementationVersion": "srq-20@native-2026-10-05+3f2717e868fb",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/3955316/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -465,7 +465,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "faabf44b47e95920dfb4748db1268408e68cc9c148296a0d8b0622b83ac31206"
+      "implementationHash": "3f2717e868fb46c3d9502cee0e8eb498e430c10e6d39ee114ed7e5ec33152f62",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "srq-20@native-2026-10-03+faabf44b47e9",
+          "previousImplementationHash": "faabf44b47e95920dfb4748db1268408e68cc9c148296a0d8b0622b83ac31206",
+          "implementationHash": "3f2717e868fb46c3d9502cee0e8eb498e430c10e6d39ee114ed7e5ec33152f62",
+          "scientificBodySha256": "a84346601c5bc06bd99170db2669ac01badef39d1fcda38dcd213c8dbdb2f436",
+          "metadataContractHash": "278b02c731cc7844af2ebb1ed6c4319e6466bffefc4d751c3004f22893feb30a",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "Rastreamento de transtornos mentais comuns em contexto de atenção primária, seguido de avaliação clínica quando indicado. O estudo brasileiro encontrou diferenças de desempenho por sexo. Uma soma não substitui entrevista diagnóstica; janela de recordação e ponto de corte devem corresponder à versão e população estudadas.",
     "sourceLimitEvidence": {
@@ -484,15 +512,15 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/srq-20/calculator.js",
-    "bytes": 6287,
-    "sha256": "faabf44b47e95920dfb4748db1268408e68cc9c148296a0d8b0622b83ac31206"
+    "bytes": 6492,
+    "sha256": "3f2717e868fb46c3d9502cee0e8eb498e430c10e6d39ee114ed7e5ec33152f62"
   },
-  "sourceToolSha256": "5108237df959d7c4381baaf5a5a6b4b5457686b6468ab6f1b302d4e689f62e36",
+  "sourceToolSha256": "54fc359e22b7abe4aa904a907aea2ede28636734759b41c43d95f618383aba8c",
   "omittedFullReferenceBanks": [
     {
       "rows": 51,
       "sha256": "36f29264bb7604b74f24cf7a64fed9723ec41cc8bf28fb43a74a62ff34dda440",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

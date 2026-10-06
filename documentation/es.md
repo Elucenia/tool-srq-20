@@ -133,3 +133,28 @@ Resultado de la fórmula o clasificación. La interpretación, la conducta y la 
 Apache-2.0 se aplica únicamente al código de ELUCENIA. Los derechos de los instrumentos, publicaciones, traducciones y datos permanecen en manos de sus respectivos titulares. Conserve LICENSE y NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+La información siguiente conserva las salidas del método para ejemplos sintéticos. No constituye una validación clínica independiente.
+
+### 1
+
+Cribado negativo
+
+Instrumento de cribado: no diagnostica ni indica qué trastorno. Los casos positivos requieren evaluación clínica.
+
+
+### 2
+
+Cribado positivo: sospecha de trastorno mental común
+
+Instrumento de cribado: no diagnostica ni indica qué trastorno. Los casos positivos requieren evaluación clínica.
+
+
+### 3
+
+Cribado negativo. Ideas de acabar con la vida: evaluar ahora el riesgo de suicidio
+
+Pensamientos de muerte o de hacerse daño: pregunte directamente sobre ideación, plan y medios, y no deje a la persona sola si el riesgo es inminente. Apoyo emocional gratuito 24 h: CVV 188 (o cvv.org.br). Riesgo inmediato: SAMU 192 o urgencias.
+

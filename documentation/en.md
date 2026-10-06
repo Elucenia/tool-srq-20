@@ -133,3 +133,28 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Negative screening
+
+Screening instrument: does not make a diagnosis or indicate which disorder. Positive cases require clinical evaluation.
+
+
+### 2
+
+Positive screening: suspicion of common mental disorder
+
+Screening instrument: does not make a diagnosis or indicate which disorder. Positive cases require clinical evaluation.
+
+
+### 3
+
+Negative screening. Thoughts of ending one’s life: assess suicide risk now
+
+Thoughts of death or self-harm: ask directly about ideation, plan, and means, and do not leave the person alone if the risk is imminent. 24 h free emotional support: CVV 188 (or cvv.org.br). Immediate risk: SAMU 192 or emergency department.
+
